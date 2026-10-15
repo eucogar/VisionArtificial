@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['plates']
+
+roboflow:
+  workspace: itm-n1i3r
+  project: detectioncolombianmotoplates-6o1aj
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/itm-n1i3r/detectioncolombianmotoplates-6o1aj/dataset/15
